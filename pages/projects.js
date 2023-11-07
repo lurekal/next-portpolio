@@ -17,9 +17,9 @@ export default function Projects({projects}){
                     <span className='text-blue-500'>   {projects.results.length} </span>
                 </h1>
                 <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 m-6 py-10'>
-                     {projects.results.map((project)=>
+                     {projects.results.map((project,index)=>
 
-                          <ProjectItem item={project}/>
+                          <ProjectItem key={index} item={project}/>
 
                      )}
                 </div>
