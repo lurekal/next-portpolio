@@ -1,8 +1,9 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import Animation from '../components/animation'
+
 
 import Link from "next/link";
+import Animation from '../components/animation'
 import Layout from '../components/layout';
 
 
